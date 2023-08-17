@@ -1,8 +1,8 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Playfair', serif; */
-@import url("/components/about-me.css");
-@import url("/components/social-media-links.css ");
-@import url("/components/table.css");
+@import url("components/about-me.css");
+@import url("components/social-media-links.css ");
+@import url("components/table.css");
 
 h1,h2,h3{
   font-family: 'Roboto', sans-serif;
