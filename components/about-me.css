@@ -1,0 +1,13 @@
+.about-me{
+  background-color: #57cc99;
+  padding: ;
+}
+
+.about-me a{
+  text-decoration: none;
+  color: #0466c8;
+}
+
+.about-me a:hover{
+  color: #002855;
+}

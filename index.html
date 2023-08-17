@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The-man</title>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+  <!-- end -->
+  <!-- google open sans fonts for heading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- end -->
+  <!-- google roboto fonts for text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- end -->
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- end -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container ">
+    <!-- this will contain my picture and social media links -->
+    <div class="row g-0 mt-4">
+      <div class="col-md-6">
+        <img src = "/images/my_pic.png" alt="my profile picture" class="img-fluid">
+        <div class="mt-4 p-3">
+          <h1>Dhiraj Chakma</h1>
+          <h2>Webentwickler</h2>
+          <h3 class = "faded-heading">er/ihn</h3>
+          <div class="social-medias mt-5 d-flex justify-content-end">
+            <a href="mailto: chakmadhiraj@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-xing"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class = "col-md-6 about-me p-4">
+        <h3 class = "faded-heading mb-4">ÜBER MICH</h3>
+        <h1>Was mich antreibt</h1>
+        <p>Ich bin ein Webentwickler mit Fähigkeiten in Ruby, JavaScript, DOM, CSS und HTML, ausgebildet bei Le Wagon und verfolge die Kaizen-Philosophie der kontinuierlichen Verbesserung. Meine Erfahrung dort beflügelt meinen Wunsch, benutzerorientierte Lösungen zu schaffen. Abseits der Programmierung spiele ich gerne Badminton und wende Kaizen-Prinzipien sowohl in meinem beruflichen als auch in meinem persönlichen Leben an, wodurch sich meine Sicht auf die Rolle der Technologie im täglichen Wachstum bereichert.</p>
+        <h3>Erfahrung</h3>
+        <div>
+          <table class="table-borderless">
+            <thead>
+              <tr>
+                <th class="year">2023</th>
+                <th class="description">Le Wagon</th>
+              </tr>
+            </thead>
+            <tbody>
+              <td class="year"></td>
+              <td class="description">Mit einer soliden Grundlage in der Programmierung beherrsche ich Fähigkeiten wie objektorientierte Programmierung, MVC-Architektur und SQL. Mein Werkzeugkasten umfasst Ruby, HTML, CSS und JavaScript. In den kommenden Wochen freue ich mich darauf, Heroku und Ruby on Rails zu erkunden. Mein praktischer Ansatz und meine Bereitschaft zum kontinuierlichen Lernen spiegeln meine Leidenschaft für das Erstellen von dynamischen und benutzerzentrierten Webanwendungen wider.</td>
+            </tbody>
+          </table>
+        </div>
+        <h3>Projects</h3>
+        <div>
+          <table class="table-borderless">
+            <thead>
+              <tr>
+                <th class=" year">2023</th>
+                <th class="description"><a href="#" target="_blank">Reise Durch Meine Arbeit <i class="fa-solid fa-car-side"></i></a>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <td class="year"></td>
+              <td class="description">Erkunden Sie die Sammlung von Projekten, die ich während meines Le Wagon Bootcamps entwickelt habe. Von den Grundlagen der Programmierung bis hin zu komplexen Webanwendungen zeigt diese Reise meine wachsenden Fähigkeiten und Hingabe an Innovation.</td>
+            </tbody>
+          </table>
+        </div>
+        <div class="d-flex justify-content-end">
+          <!-- Button to Open the Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal">Lebenslauf</button>
+        </div>
+      </div>
+
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="largeModalLabel">Lebenslauf</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="/images/Minimalist Modern Professional CV Resume(3).jpg" alt="my cv" style="width: 100%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+  <script src="portfolio.js"></script>
+  <!-- Bootstrap Bundle with Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

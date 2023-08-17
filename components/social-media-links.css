@@ -1,0 +1,9 @@
+.social-medias a{
+  font-size: 2vw;
+  color: #6c757d;
+  padding-left: 15px;
+}
+
+.social-medias a:hover{
+  color: #03071e;
+}

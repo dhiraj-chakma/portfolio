@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.year {
+  width: 15%; /* Adjust as needed */
+  vertical-align: top;
+  text-align: left;
+}
+
+.description {
+  width: 85%; /* Adjust as needed */
+  vertical-align: top;
+  text-align: left;
+}
