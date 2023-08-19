@@ -7,3 +7,9 @@
 .social-medias a:hover{
   color: #03071e;
 }
+
+@media only screen and (max-width: 600px) {
+  .social-medias a{
+    font-size: 4vw;
+  }
+}
